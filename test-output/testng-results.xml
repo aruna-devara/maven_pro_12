@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-26T12:47:01 IST" name="Default suite" finished-at="2025-03-26T12:47:05 IST" duration-ms="4072">
+    <groups>
+    </groups>
+    <test started-at="2025-03-26T12:47:01 IST" name="Default test" finished-at="2025-03-26T12:47:05 IST" duration-ms="4072">
+      <class name="com.RestAssured.Day1.CRUD_Requests">
+        <test-method signature="Get_Single_user()[pri:1, instance:com.RestAssured.Day1.CRUD_Requests@4686afc2]" started-at="2025-03-26T12:47:01 IST" name="Get_Single_user" finished-at="2025-03-26T12:47:03 IST" duration-ms="1815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Single_user -->
+        <test-method signature="datavalidation()[pri:2, instance:com.RestAssured.Day1.CRUD_Requests@4686afc2]" started-at="2025-03-26T12:47:03 IST" name="datavalidation" finished-at="2025-03-26T12:47:03 IST" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datavalidation -->
+        <test-method signature="create_user()[pri:3, instance:com.RestAssured.Day1.CRUD_Requests@4686afc2]" started-at="2025-03-26T12:47:03 IST" name="create_user" finished-at="2025-03-26T12:47:04 IST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_user -->
+        <test-method signature="update_user()[pri:4, instance:com.RestAssured.Day1.CRUD_Requests@4686afc2]" started-at="2025-03-26T12:47:04 IST" name="update_user" finished-at="2025-03-26T12:47:04 IST" depends-on-methods="com.RestAssured.Day1.CRUD_Requests.create_user" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_user -->
+        <test-method signature="delete_user()[pri:5, instance:com.RestAssured.Day1.CRUD_Requests@4686afc2]" started-at="2025-03-26T12:47:04 IST" name="delete_user" finished-at="2025-03-26T12:47:05 IST" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_user -->
+      </class> <!-- com.RestAssured.Day1.CRUD_Requests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
